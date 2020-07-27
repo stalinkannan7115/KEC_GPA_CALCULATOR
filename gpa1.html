@@ -1,0 +1,404 @@
+<html>
+<head>
+	<style>
+	button {
+		width:130px;
+		height:40px;
+		
+}
+	.header{
+		background-color:green;
+			width:100%;
+			height:15%;
+			border:2px solid black;
+			font-color:white;
+			 padding: 5px 10px 10px 10px;
+			}
+
+
+.text-input {
+    background-color:powdewrblue;
+    color: #eeeeee;
+    outline:;
+    outline-style:;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 2px;
+    padding: 3px 10px;
+	color:black;
+}
+.page2{
+			margin:2px 50px 50px 400px;
+			background-color:#bcebf0;
+			width:40%;
+			height:109%;
+			border:6px solid black;
+			
+			padding:20px 20px 20px 20px;
+			background-image: url("https://i.dlpng.com/static/png/361728_thumb.png");
+			background-color: #cccccc;
+			background-repeat: no-repeat;
+			background-size: 600px 400px;
+
+}
+		
+	</style>
+
+</head>
+<body>
+<div class="header">
+<table width=100%>
+<tr>
+<th width=90%>
+<h1 style="font-size:50px;text-align:center"><i><b>GPA CALCULATOR</b></i></h1></th>
+<th width=10%><img src="http://knowafest.com/files/uploads/klogo-2018011905.png"width="65%" height="9%"></th>
+</tr>
+</table>
+</div>
+<div class="page2">
+<form name="frm">
+<table>
+	<tr>
+	<th><h2>SUBJECTS</h2></th>
+	<th><h2>CERDITS</h2></th>
+	<th><h2>GRADE</h2></th>
+	</tr>
+	<!--<tr>
+	<th colspan="3"><h2>Select Subject Grades</h2></th>
+	</tr>
+	<tr>
+	-->
+	<td><h3>Subject 1:</h3></td>
+	<td><select name="credits1" style="width:250px;height:30px" class="text-input"/>
+	<option value="4">4</option>
+	 <option value="3">3</option>
+	 <option value="1">1</option>
+	 <option value="0">nil</option>
+	 </select>
+	 </td>
+
+	<td><select name="grade1" class="text-input"/>
+	 <option value="10">S</option>
+	 <option value="9">A</option>
+	 <option value="8">B</option>
+	 <option value="7">C</option>
+	 <option value="6">D</option>
+	 <option value="5">E</option>
+	 <option value="0">RA</option>
+	 <option value="0">W</option>
+	 <option value="0">Ab</option>
+	 </select></td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+	<td><h3>Subject 2:</h3></td>
+	<td><select name="credits2" style="width:250px;height:30px"  class="text-input"/> 
+	<option value="4">4</option>
+	 <option value="3">3</option>
+	 <option value="1">1</option>
+	 <option value="0">nill</option>
+	 </select>
+	 </td>
+	<td><select name="grade2"  class="text-input"/>
+	 <option value="10">S</option>
+	 <option value="9">A</option>
+	 <option value="8">B</option>
+	 <option value="7">C</option>
+	 <option value="6">D</option>
+	 <option value="5">E</option>
+	 <option value="0">RA</option>
+	 <option value="0">W</option>
+	 <option value="0">Ab</option>
+	 </select></td>
+	</tr>
+	<tr>
+	<td><h3>Subject 3:</h3></td>
+	<td><select name="credits3"  style="width:250px;height:30px"  class="text-input"/>
+	<option value="4">4</option>
+	 <option value="3">3</option>
+	 <option value="1">1</option>
+	 <option value="0">nill</option>
+	 </select>
+	 </td>
+	<td><select name="grade3"  class="text-input"/>
+	 <option value="10">S</option>
+	 <option value="9">A</option>
+	 <option value="8">B</option>
+	 <option value="7">C</option>
+	 <option value="6">D</option>
+	 <option value="5">E</option>
+	 <option value="0">RA</option>
+	 <option value="0">W</option>
+	 <option value="0">Ab</option>
+	 </select></td>
+	</tr>
+	<tr>
+	<td><h3>Subject 4:</h3></td>
+	<td><select name="credits4"  style="width:250px;height:30px"  class="text-input"/>
+	<option value="4">4</option>
+	 <option value="3">3</option>
+	 <option value="1">1</option>
+	 <option value="0">nill</option>
+	 </select>
+	 </td>
+	<td><select name="grade4"  class="text-input"/>
+	 <option value="10" >S</option>
+	 <option value="9" >A</option>
+	 <option value="8">B</option>
+	 <option value="7" >C</option>
+	 <option value="6">D</option>
+	 <option value="5" >E</option>
+	 <option value="0">RA</option>
+	 <option value="0">W</option>
+	 <option value="0">Ab</option>
+	 </select></td>
+	</tr>
+	<tr>
+	<td><h3>Subject 5:</h3></td>
+	<td><select name="credits5"  style="width:250px;height:30px"  class="text-input"/>
+	<option value="4" >4</option>
+	 <option value="3">3</option>
+	 <option value="1">1</option>
+	 <option value="0">nill</option>
+	 </select>
+	 </td>
+	<td><select name="grade5"  class="text-input"/>
+	 <option value="10">S</option>
+	 <option value="9">A</option>
+	 <option value="8">B</option>
+	 <option value="7">C</option>
+	 <option value="6">D</option>
+	 <option value="5">E</option>
+	 <option value="0">RA</option>
+	 <option value=">0">W</option>
+	 <option value="0">Ab</option>
+	 </select></td>
+	</tr>
+	<tr>
+	<td><h3>Subject 6:</h3></td>
+	<td><select name="credits6"  style="width:250px;height:30px"  class="text-input"/>
+	<option value="4">4</option>
+	 <option value="3">3</option>
+	 <option value="1">1</option>
+	 <option value="0">nill</option>
+	 </select>
+	 </td>
+	<td><select name="grade6"  class="text-input"/>
+	 <option value="10">S</option>
+	 <option value="9" >A</option>
+	 <option value="8" >B</option>
+	 <option value="7">C</option>
+	 <option value="6">D</option>
+	 <option value="5" >E</option>
+	 <option value="0" >RA</option>
+	 <option value="0">W</option>
+	 <option value="0" >Ab</option>
+	 </select></td>
+	</tr>
+	<tr>
+	<th colspan="2"><h2>Select Laboratory Grades</h2></th>
+	</tr>
+	<tr>
+	<td><h3>Lab 1: </h3></td>
+	<td><select name="credits7"  style="width:250px;height:30px"  class="text-input"/>
+	<option value="4" >4</option>
+	 <option value="3" >3</option>
+	 <option value="1" >1</option>
+	 <option value="0" >nil</option>
+	 </select>
+	 </td>
+	<td><select name="grade7"  class="text-input"/>
+	 <option value="10" >S</option>
+	 <option value="9" >A</option>
+	 <option value="8">B</option>
+	 <option value="7">C</option>
+	 <option value="6">D</option>
+	 <option value="5" >E</option>
+	 <option value="0">RA</option>
+	 <option value="0">W</option>
+	 <option value="0" >Ab</option>
+	 </select></td>
+	</tr>
+	<tr>
+	<td><h3>Lab 2:</h3></td>
+	<td><select name="credits8"  style="width:250px;height:30px"  class="text-input"/>
+	<option value="4" >4</option>
+	 <option value="3" >3</option>
+	 <option value="1" >1</option>
+	 <option value="0">nil</option>
+	 </select>
+	 </td>
+	<td><select name="grade8"  class="text-input"/>
+	 <option value="10" >S</option>
+	 <option value="9">A</option>
+	 <option value="8">B</option>
+	 <option value="7">C</option>
+	 <option value="6">D</option>
+	 <option value="5">E</option>
+	 <option value="0">RA</option>
+	 <option value="0" >W</option>
+	 <option value="0">Ab</option>
+	 </select></td>
+	</tr>
+	<tr>
+	<td><h3>Lab 3:</h3></td>
+	<td><select name="credits9"  style="width:250px;height:30px"  class="text-input"/>
+	<option value="4" >4</option>
+	 <option value="3" >3</option>
+	 <option value="1" >1</option>
+	 <option value="0" >nil</option>
+	 </select>
+	 </td>
+	<td><select name="grade9" class="text-input"/>
+	 <option value="10">S</option>
+	 <option value="9">A</option>
+	 <option value="8">B</option>
+	 <option value="7">C</option>
+	 <option value="6">D</option>
+	 <option value="5" >E</option>
+	 <option value="0" >RA</option>
+	 <option value="0">W</option>
+	 <option value="0" >Ab</option>
+	 </select></td>
+	</tr>
+	<td><h3>Lab 4:</h3></td>
+	<td><select name="credits10"  style="width:250px;height:30px"  class="text-input"/>
+	<option value="4" >4</option>
+	 <option value="3" >3</option>
+	 <option value="1" >1</option>
+	 <option value="0" >nil</option>
+	 </select>
+	 </td>
+	<td><select name="grade10" class="text-input"/>
+	 <option value="10">S</option>
+	 <option value="9">A</option>
+	 <option value="8">B</option>
+	 <option value="7">C</option>
+	 <option value="6">D</option>
+	 <option value="5" >E</option>
+	 <option value="0" >RA</option>
+	 <option value="0">W</option>
+	 <option value="0" >Ab</option>
+	 </select></td>
+	</tr>
+	<tr>
+	
+	</tr>
+	
+	
+	</table>
+	<hr>
+	<table align="center">
+	<tr>
+		<th colspan="2">GPA is computed only for the candidates with a pass in all the courses of current semester</th>
+	</tr>
+	<tr>
+		<th><span id="reu"></span></th>
+	</tr>
+
+	<tr>
+	<th><button onclick="return result()">CALCULATE</button></th>
+	<th><button onclick="return save()">SAVE</button></th>
+	</tr>
+	</table>
+	 </form>
+	 </div>
+	</div>
+	 <script>
+		function result()
+		{ 
+		var sid=document.frm.grade1.selectedIndex;
+		var g1=document.frm.grade1.options[sid].value;
+		
+		sid=document.frm.grade2.selectedIndex;
+		var g2=document.frm.grade2.options[sid].value;
+		
+		sid=document.frm.grade3.selectedIndex;
+		var g3=document.frm.grade3.options[sid].value;
+		
+		sid=document.frm.grade4.selectedIndex;
+		var g4=document.frm.grade4.options[sid].value;
+		
+		sid=document.frm.grade5.selectedIndex;
+		var g5=document.frm.grade5.options[sid].value;
+		
+		sid=document.frm.grade6.selectedIndex;
+		var g6=document.frm.grade6.options[sid].value;
+		
+		sid=document.frm.grade7.selectedIndex;
+		var g7=document.frm.grade7.options[sid].value;
+		
+		sid=document.frm.grade8.selectedIndex;
+		var g8=document.frm.grade8.options[sid].value;
+		
+		sid=document.frm.grade9.selectedIndex;
+		var g9=document.frm.grade9.options[sid].value;
+		
+		sid=document.frm.grade10.selectedIndex;
+		var g10=document.frm.grade10.options[sid].value;
+
+		sid=document.frm.credits1.selectedIndex;
+		var c1=document.frm.credits1.options[sid].value;
+		
+		sid=document.frm.credits2.selectedIndex;
+		var c2=document.frm.credits2.options[sid].value;
+		
+		sid=document.frm.credits3.selectedIndex;
+		var c3=document.frm.credits3.options[sid].value;
+		
+		sid=document.frm.credits4.selectedIndex;
+		var c4=document.frm.credits4.options[sid].value;
+		
+		sid=document.frm.credits5.selectedIndex;
+		var c5=document.frm.credits5.options[sid].value;
+		
+		sid=document.frm.credits6.selectedIndex;
+		var c6=document.frm.credits6.options[sid].value;
+		
+		sid=document.frm.credits7.selectedIndex;
+		var c7=document.frm.credits7.options[sid].value;
+		
+		sid=document.frm.credits8.selectedIndex;
+		var c8=document.frm.credits8.options[sid].value;
+		
+		sid=document.frm.credits9.selectedIndex;
+		var c9=document.frm.credits9.options[sid].value;
+		
+		sid=document.frm.credits10.selectedIndex;
+		var c10=document.frm.credits10.options[sid].value;
+		if((g1==0)||(g2==0)||(g3==0)||(g4==0)||(g5==0)||(g6==0)||(g7==0)||(g8==0)||(g9==0)||(g10==0))
+		{
+			document.getElementById("reu").innerHTML="<span style='color: red; font-weight:bold;'>Current Semester GPA :---</span>";
+			return false; 
+			//document.write("Current Semester GPA  :---");
+		}
+		else{
+		//document.getElementById('num').innerHTML="T
+		 var totc=(parseInt(c1)+parseInt(c2)+parseInt(c3)+parseInt(c4)+parseInt(c5)+parseInt(c6)+parseInt(c7)+parseInt(c8)+parseInt(c9)+parseInt(c10));
+		 
+		 var g=parseInt(g1)*parseInt(c1);
+		 g+=parseInt(g2)*parseInt(c2);
+		 g+=parseInt(g3)*parseInt(c3);
+		 g+=parseInt(g4)*parseInt(c4);
+		 g+=parseInt(g5)*parseInt(c5);
+		 g+=parseInt(g6)*parseInt(c6);
+		 g+=parseInt(g7)*parseInt(c7);
+		 g+=parseInt(g8)*parseInt(c8);
+		 g+=parseInt(g9)*parseInt(c9);
+		 g+=parseInt(g10)*parseInt(c10);
+		 
+		 var result=g/totc;
+		document.getElementById("reu").innerHTML="<span style='color: red; font-weight:bold;' >Current Semester GPA  :</span>"+result;
+		//document.write("Current Semester GPA  :"+result);
+		return false;
+		}
+		}
+ 
+</script>
+	 </body>
+	 </html>
+
+	
+	
